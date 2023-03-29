@@ -15,6 +15,7 @@ KSQL_TURNSTILE_TOPIC_NAME = "org.chicago.cta.stations.turnstile.v1"
 
 ###Consumer constants###
 CONSUMER_GROUP_ID = "0"
-CONSUMER_AUTO_OFFSET_RESET = "earliest"
+CONSUMER_AUTO_OFFSET_RESET_EARLIEST = "earliest"
+CONSUMER_AUTO_OFFSET_RESET_LATEST = "latest"
 CONSUMER_BOOTSTRAP_SERVERS = "PLAINTEXT://localhost:9092"
 ARVO_BROKER_URL = "http://localhost:8081"
