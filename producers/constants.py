@@ -10,4 +10,4 @@ TABLE_WHITELIST = "stations"
 MODE = "incrementing"
 INCREMENTING_COLUMN_NAME = "stop_id"
 TOPIC_PREFIX = "org.chicago.cta."
-POLL_INTERVAL_MS = 5000
+POLL_INTERVAL_MS = "6000"

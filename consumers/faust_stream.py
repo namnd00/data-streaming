@@ -79,7 +79,7 @@ async def process(stream: faust.Stream[Station]):
             order=record.order,
             line=line,
         )
-        await table.put(transformed_record)
+        table[record.id] = transformed_record
 
 
 if __name__ == "__main__":
